@@ -4,12 +4,12 @@ function cambiarTexto(idelemento, valor) {
 }
 
 function cambiarColor(idelemento, color) {
-    document.getElementById(idelemento).style.color = color
+    document.getElementById(idelemento).style.color = color;
 }
 
 function cambiarTamaño(idelemento, tamaño) {
-    document.getElementById(idelemento).style.fontSize = tamaño
+    document.getElementById(idelemento).style.fontSize = tamaño;
 }
 function agregarElemento(idelemento) {
-    document.getElementById(idelemento).innerHTML = document.getElementById(idelemento).innerHTML + '<li>Calculadora 4 </li>'
+    document.getElementById(idelemento).innerHTML = document.getElementById(idelemento).innerHTML + '<li>Calculadora 4 </li>';
 }
