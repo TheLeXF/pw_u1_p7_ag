@@ -17,10 +17,10 @@
         <div class="container">
             <div class="calculadora">
                 <div id="id-display" class="display">
-                    1+2
+                    0
                 </div>
-                <button id="clear">C</button>
-                <button>&larr;</button>
+                <button id="clear" onclick="reset()">C</button>
+                <button onclick="borrar()">&larr;</button>
                 <button onclick="evaluarOperacion('%')">%</button>
                 <button onclick="recibirValor(7)">7</button>
                 <button onclick="recibirValor(8)">8</button>
@@ -35,7 +35,7 @@
                 <button onclick="recibirValor(3)">3</button>
                 <button onclick="evaluarOperacion('+')">+</button>
                 <button onclick="recibirValor(0)" id="cero">0</button>
-                <button>.</button>
+                <button onclick="recibirValor('.')">.</button>
                 <button onclick="igual()">=</button>
             </div>
         </div>
