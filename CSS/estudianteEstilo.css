@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #59abe3 ;
+}
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+
+input{
+    width: 210px;
+    border: none;
+    border-bottom: 2px solid #bebed2;
+    background: none;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #b1b1c5;
+}
+h2{
+    margin: 10px 2px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+}
+
+form{
+    width: 300px;
+    height: 425px;
+    background: #e6e6e6;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 15px 10px 5px 5px  rgb(147, 124, 230);
+}
