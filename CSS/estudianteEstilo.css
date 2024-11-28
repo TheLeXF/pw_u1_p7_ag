@@ -4,10 +4,11 @@
     align-items: center;
 }
 
-body{
-    background-color: #59abe3 ;
+body {
+    background-color: #59abe3;
 }
-p:before{
+
+p:before {
     content: attr(type);
     display: block;
     margin: 3px;
@@ -15,29 +16,48 @@ p:before{
     color: #5a5a5a;
 }
 
-input{
+input {
     width: 210px;
     border: none;
     border-bottom: 2px solid #bebed2;
     background: none;
 }
-input:focus{
+
+input:focus {
     outline: none;
     border-bottom: 2px solid #b1b1c5;
 }
-h2{
+
+h2 {
     margin: 10px 2px;
     width: 180px;
     color: #78788c;
     border-bottom: 3px solid #78788c;
 }
 
-form{
+form {
     width: 300px;
     height: 425px;
     background: #e6e6e6;
     border-radius: 10px;
     padding-left: 15px;
     padding-top: 15px;
-    box-shadow: 15px 10px 5px 5px  rgb(147, 124, 230);
+    box-shadow: 15px 10px 5px 5px rgb(147, 124, 230);
+}
+
+button {
+    background: #e6e6e6;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    color: #5a5a5a;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px solid #78788c;
+}
+
+.copia-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
